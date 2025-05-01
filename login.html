@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Login - Maria Flor</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Login</h1>
+    <nav>
+      <a href="index.html">Início</a>
+      <a href="login.html">Login</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="login-box">
+      <h2>Acesso</h2>
+      <form id="formLogin">
+        <label for="tipo">Tipo:</label>
+        <select id="tipo">
+          <option value="cliente">Cliente</option>
+          <option value="funcionario">Funcionário</option>
+        </select><br><br>
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" required><br><br>
+        <label for="senha">Senha:</label>
+        <input type="password" id="senha" required><br><br>
+        <button type="submit">Entrar</button>
+        <p id="respostaLogin" class="resposta"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Maria Flor. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,45 @@
+/* CSS principal do site Maria Flor */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fffafc;
+}
+header {
+  background: #f06292;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+main {
+  padding: 2rem;
+}
+.catalogo {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.produto {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  width: 200px;
+  text-align: center;
+  background: white;
+}
+.login-box, .form-produto {
+  max-width: 500px;
+  margin: 3rem auto;
+  padding: 2rem;
+  background-color: #fce4ec;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ccc;
+}
+.resposta {
+  margin-top: 1rem;
+}
